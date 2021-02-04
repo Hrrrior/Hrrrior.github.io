@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css"> -->
+    <script src='main.js'></script>
+</head>
+<body onload="load()">
+    <div class="flex-container w3-container">
+
+        <div class="sidebar w3-half"></div>
+        <div class="w3-half">
+
+            <h1>One Shot</h1>
+           
+            <h2> World:</h2>
+            <ul>
+                <h3>Optional Rules:</h3>
+                    <ul>
+                        <li><a href="https://5e.tools/variantrules.html#injuries_dmg" target="_blank">Injuries - Only when taking a critical or when failing a saving throw with a nat 1.</a></li>
+                        <li><a href="https://5e.tools/variantrules.html#madness_dmg" target="_blank">Madness</a></li>
+                        <li><a href="https://5e.tools/variantrules.html#fear%20and%20horror_dmg" target="_blank">Fear and Horror</a></li>
+                    </ul>
+                <h3>Technology:</h3>
+                    <ul>
+                        <li>Coal Trains</li>
+                        <li>Steam Ships</li>
+                        <li>Electric Light Sources in Major Advanced Cities</li>
+                    </ul>
+                <h3>Crime:</h3>
+                    <ul>
+                        <li>Opium Trade</li>
+                        <li>Weapon Smuggling</li>
+                        <li>Slave Trade</li>
+                    </ul>
+                <h3>Races in the World by existance:</h3>
+                    <ul>
+                        <li>Common: Humans, Half-Elves, Dwarves</li>
+                        <li>Uncommon: Elves, Half-Orcs, Gnomes</li>
+                        <li>Rare: Tabaxi, Halfling, Dragonborn </li>
+                        <li>Very Rare: Orc, Leonin, Hobgoblin, Firbolg</li>
+                        <li>Extremely rare subhumans: Shifters, Shapashifters, Kalashtars, Aasimars, Simic Hybrids</li>
+                    </ul>
+                <h3>Classes in the world by existance:</h3>
+                    <ul>
+                        <li>Common (no limit): Fighter, Rogue, Ranger</li>
+                        <li>Uncommon (one of any per party): Bard, Barbarian, Cleric</li>
+                        <li>Rare (one of any per party but max 2 of all): Warlock, Paladin, Monk, Artificer</li>
+                        <li>Very rare (one per party): Wizard, Sorcerer, Druid</li>
+                    </ul>
+                <h3>Organization items:</h3>
+                    <ul>
+                        <li>Glass Candy (10) - advantage on charisma/wisdom saving throws</li>
+                        <li>Med kit (5) - 1d4 + 2 healing, bonus action. Consumes charge.</li>
+                        <li>Compact cooking set - 1d8 healing from short rest, only use 2 times per rest (once per person). Consumes ration.</li>
+                        <!-- <li>Graveyard Pack - 2 shovels, 1 axe, 1 pickaxe, 1 crowbar, 2 Holy Water</li> -->
+                        <li>Scroll of Protection from Evil and Good</li>
+                        <li>Flare (10) - 40 feet thrown. Illuminates 50ft radius for 4 minutes.</li>
+                        <li>30 Silver ammunition for a weapon of choice</li>
+                        <li>3 sticks of dynamite</li>
+                        <li>1 Bottle of Dragons Vodka</li>
+                        <button id="upper" class="collapsible">Graverobber Pack</button>
+                        <div class="content">
+                            <img class="images" src="graverobber.png" alt="graverobberPack">
+                        </div> 
+                        <button id="upper" class="collapsible">Charm of Protection</button>
+                        <div class="content">
+                            <img class="images" src="charmOfProtection.png" alt="charm">
+                        </div>
+                    </ul>
+                <h3>Organization training:</h3>
+                    <ul>
+                        <li>Monster Manual</li>
+                        <li>Flintlock pistol proficiency</li>
+                        <li>Horse Riding proficiency</li>
+                        <li>Basic survival skills and the ability to read maps.</li>
+                        <li>Free bedding and food at any official Organization outposts.</li>
+                    </ul>
+                <h3> Backstory Benefits:</h3>
+                <ul>
+                    <li>You gain a free tool proficiency, language proficiency or weapon proficiency if it fits into your backstory.</li>
+                </ul>
+            </ul>
+
+            <h2>Rules:</h2>
+                <ul> 
+                    <li>Drop Weapon - free action </li>
+                    <li>Change weapon</li>
+                        <ul>
+                            <li>Switch weapon for weapon or equip shield - 1 full action or 1 full movement.</li>
+                            <li>Switch empty hand for weapon - 1 bonus action or 1 half movement (Yes you can drop a weapon and then do this). </li>
+                            <li>If weapon is unsheated when combat starts - On initiative roll 10+ you take out your primary weapon(s) instantly.</li>
+                        </ul>
+                    <li>Advantage</li>
+                        <ul>
+                            <li>Flanking - Gives +2 to attack</li>
+                        </ul>
+                    <li>Madness </li>
+                    <li>Firearm & Explosives</li>
+                        <ul>
+                            <li>Guns: Flintlock pistol, Musket, Revolver, Hunting Rifle, Shotgun + advanced Weapons</li>
+                            <li>Boom goes the dynamite </li>
+                            <li><img src="boom.png" alt="Boom"></li>
+                            <!-- <li>Welcome to the wild west <img src="guns.png" alt="Guns"></li> -->
+                        </ul>
+                    <li>Explosives - <a href="https://5e.tools/variantrules.html#explosives_dmg" target="_blank">Bomb, Gunpowder, Dynamite</a></li>
+                    <li>Advanced Weapons - <a href="http://online.anyflip.com/xvxwf/qawz/mobile/index.html" target="_blank">Page 18-21</a></li>
+                    <li>Extended Feat List - <a href="http://online.anyflip.com/xvxwf/qawz/mobile/index.html" target="_blank">Page 21-23</a></li>
+                    <li>Extended Spell List - <a href="http://online.anyflip.com/xvxwf/qawz/mobile/index.html" target="_blank">Page 24-28</a></li>
+                </ul>
+        </div>
+        <div class="sidebar w3-half"></div>
+    </div>
+</body>
+</html>
