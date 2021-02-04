@@ -3,44 +3,38 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Tentacool</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<!--    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css"> -->
     <script src='main.js'></script>
 </head>
 <body onload="load()">
     <div class="flex-container w3-container">
 
-        <div class="sidebar w3-half"></div>
-        <div class="w3-half">
+        <div class="sidebar"></div>
+        <div>
 
-            <h1>One Shot</h1>
+            <h1>One Shot Ideas</h1>
            
             <h2> World:</h2>
             <ul>
-                <h3>Optional Rules:</h3>
-                    <ul>
-                        <li><a href="https://5e.tools/variantrules.html#injuries_dmg" target="_blank">Injuries - Only when taking a critical or when failing a saving throw with a nat 1.</a></li>
-                        <li><a href="https://5e.tools/variantrules.html#madness_dmg" target="_blank">Madness</a></li>
-                        <li><a href="https://5e.tools/variantrules.html#fear%20and%20horror_dmg" target="_blank">Fear and Horror</a></li>
-                    </ul>
                 <h3>Technology:</h3>
                     <ul>
                         <li>Coal Trains</li>
                         <li>Steam Ships</li>
                         <li>Electric Light Sources in Major Advanced Cities</li>
                     </ul>
-                <h3>Crime:</h3>
+                <h3>Crime: (Not relevant rn)</h3>
                     <ul>
                         <li>Opium Trade</li>
                         <li>Weapon Smuggling</li>
                         <li>Slave Trade</li>
                     </ul>
-                <h3>Races in the World by existance:</h3>
+                <h3>Races in the World by population:</h3>
                     <ul>
                         <li>Common: Humans, Half-Elves, Dwarves</li>
                         <li>Uncommon: Elves, Half-Orcs, Gnomes</li>
@@ -55,31 +49,40 @@
                         <li>Rare (one of any per party but max 2 of all): Warlock, Paladin, Monk, Artificer</li>
                         <li>Very rare (one per party): Wizard, Sorcerer, Druid</li>
                     </ul>
-                <h3>Organization items:  You get 3 tokens.</h3>
+                <h3>Organization items:  You get 3 tokens. (or maybe a certain number for the whole party)</h3>
                     <ul>
-                        <li>Glass Candy (10) - advantage on charisma/wisdom saving throws. (1 token)</li>
-                        <li>Med kit (5) - 1d4 + 2 healing, bonus action. Consumes charge. (2 tokens)</li>
+                        <li>Glass Candy (10 pieces) - Advantage on next charisma/wisdom saving throw. (1 token)</li>
+<!--                        <li>Med kit (5) - 1d4 + 2 healing, bonus action. Consumes charge. (2 tokens)</li>-->
 <!--                        <li>Compact cooking set - 1d8 healing from short rest, only use 2 times per rest (once per person). Consumes ration. (1 token)</li>-->
                         <!-- <li>Graveyard Pack - 2 shovels, 1 axe, 1 pickaxe, 1 crowbar, 2 Holy Water</li> -->
-                        <li>Scroll of Protection from Evil and Good</li>
-                        <li>Flare (10) - 40 feet thrown. Illuminates 50ft radius for 4 minutes.</li>
-                        <li>30 Silver ammunition for a weapon of choice</li>
-                        <li>3 sticks of dynamite</li>
-                        <li>1 Bottle of Dragons Vodka</li>
+                        <li>Scroll of Protection from Evil and Good. (2 token maybe)</li>
+                        <li>Flare (10) - 40 feet thrown. Illuminates 50ft radius (tbd) for 4 minutes. (1 token)</li>
+                        <li>30 Silver ammunition for a weapon of choice. (1 token)</li>
+                        <li>2 sticks of dynamite. (1 token)</li>
+                        <li>1 Bottle of Dragons Vodka. Cold resistance for 1 hour and 1d4 + 1 temp hp. 10 charges (2 tokens)</li>
+
                         <button id="upper" class="collapsible">Cooking Set (1 token)</button>
                         <div class="content">
                             <img class="images" src="cooking.png" alt="cookingSet">
                         </div>
+
                         <button id="upper" class="collapsible">Graverobber Pack (1 token)</button>
                         <div class="content">
                             <img class="images" src="graverobber.png" alt="graverobberPack">
-                        </div> 
-                        <button id="upper" class="collapsible">Charm of Protection</button>
+                        </div>
+
+
+                        <button id="upper" class="collapsible">Medical Kit (2 tokens)</button>
+                        <div class="content">
+                            <img class="images" src="medKit.png" alt="medKit">
+                        </div>
+
+                        <button id="upper" class="collapsible">Charm of Protection (First one free)</button>
                         <div class="content">
                             <img class="images" src="charmOfProtection.png" alt="charm">
                         </div>
                     </ul>
-                <h3>Organization training:</h3>
+                <h3>Organization training and benefits:</h3>
                     <ul>
                         <li>Monster Manual</li>
                         <li>Flintlock pistol proficiency</li>
@@ -94,7 +97,10 @@
             </ul>
 
             <h2>Rules:</h2>
-                <ul> 
+                <ul>
+                    <li><a href="https://5e.tools/variantrules.html#injuries_dmg" target="_blank">Injuries - Only when taking a critical or when failing a saving throw with a nat 1.</a></li>
+                    <li><a href="https://5e.tools/variantrules.html#madness_dmg" target="_blank">Madness</a></li>
+                    <li><a href="https://5e.tools/variantrules.html#fear%20and%20horror_dmg" target="_blank">Fear and Horror</a></li>
                     <li>Drop Weapon - free action </li>
                     <li>Change weapon</li>
                         <ul>
@@ -113,7 +119,7 @@
                     <li>Extended Spell List - <a href="http://online.anyflip.com/xvxwf/qawz/mobile/index.html" target="_blank">Page 24-28</a></li>
                 </ul>
         </div>
-        <div class="sidebar w3-half"></div>
+        <div class="sidebar"></div>
     </div>
 </body>
 </html>
