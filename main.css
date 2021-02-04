@@ -58,6 +58,8 @@ body > .flex-container {
     width: 25%;
     background-image: url("tentacles2.jpg");
     opacity: 0.6;
+    background-size: cover;
+    background-repeat: no-repeat;
     /*margin: 0;*/
 }
 
