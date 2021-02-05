@@ -13,7 +13,7 @@
     <script src='main.js'></script>
 </head>
 <body onload="load()">
-    <div class="flex-container w3-container">
+    <div class="flex-container">
 
         <div class="sidebar"></div>
         <div>
@@ -55,8 +55,8 @@
                 <h3>Religion:</h3>
                     <h5>Religions: (TBD)</h5>
                     <ul>
-                        <li>3 major monotheistic religions</li>
-                        <li>1 major polytheistic religion</li>
+                        <li>4 major monotheistic religions</li>
+                        <li>2 major polytheistic religion</li>
                         <li>12ish notworthy minor religions</li>
                         <li>3 noteworthy cults</li>
                         <li>Hundreds of folk religions</li>
@@ -132,15 +132,27 @@
                     </ul>
                 <h3>Organization items:  You get 3 tokens. (or maybe a certain number for the whole party) (game starting thing, later you could still buy them with gp)</h3>
                     <ul>
-                        <li>Glass Candy (10 pieces) - Advantage on next charisma/wisdom saving throw. (1 token)</li>
+                        <!-- <li>Glass Candy (10 pieces) - Advantage on next charisma/wisdom saving throw. (1 token)</li> -->
 <!--                        <li>Med kit (5) - 1d4 + 2 healing, bonus action. Consumes charge. (2 tokens)</li>-->
 <!--                        <li>Compact cooking set - 1d8 healing from short rest, only use 2 times per rest (once per person). Consumes ration. (1 token)</li>-->
                         <!-- <li>Graveyard Pack - 2 shovels, 1 axe, 1 pickaxe, 1 crowbar, 2 Holy Water</li> -->
-                        <li>Scroll of Protection from Evil and Good. (2 token maybe)</li>
-                        <li>Flare (10) - 40 feet thrown. Illuminates 50ft radius (tbd) for 4 minutes. (1 token)</li>
-                        <li>30 Silver ammunition for a weapon of choice. (1 token)</li>
-                        <li>2 sticks of dynamite. (1 token)</li>
-                        <li>1 Bottle of Dragons Vodka. Cold resistance for 1 hour and 1d4 + 1 temp hp. 10 charges (2 tokens)</li>
+                        <li>Scroll of <a href="https://5e.tools/spells.html#protection%20from%20evil%20and%20good_phb" target="_blank">Protection from Evil and Good.</a> (2 token maybe)</li>
+                        <!-- <li>Flare (10) - 40 feet thrown. Illuminates 50ft radius (tbd) for 4 minutes. (1 token)</li> -->
+                        <li>30 <a href="https://5e.tools/items.html#silvered%20ammunition_phb" target="_blank">Silvered ammunition</a> for a weapon of choice. (1 token)</li>
+                        <li>2 sticks of <a href="https://5e.tools/items.html#dynamite%20(stick)_dmg" target="_blank">dynamite</a>. (1 token)</li>
+                        <button id="upper" class="collapsible">Glass Candy (10) (1 token)</button>
+                        <div class="content">
+                            <img class="images" src="candy.png" alt="candy">
+                        </div>
+                        <button id="upper" class="collapsible">Flare (10) (1 token)</button>
+                        <div class="content">
+                            <img class="images" src="flare.png" alt="flare">
+                        </div>
+                        
+                        <button id="upper" class="collapsible">Bottle of Dragons Vodka (2 tokens)</button>
+                        <div class="content">
+                            <img class="images" src="Dragons_Vodka.png" alt="vodka">
+                        </div>
 
                         <button id="upper" class="collapsible">Cooking Set (1 token)</button>
                         <div class="content">
