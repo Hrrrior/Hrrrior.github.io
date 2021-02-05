@@ -40,6 +40,10 @@
     /*margin-right: 10px;*/
 }
 
+img {
+    width: 100%;
+}
+
 body > .flex-container {
     display: flex;
     /*background-color: #820d8d;*/
@@ -69,3 +73,4 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
