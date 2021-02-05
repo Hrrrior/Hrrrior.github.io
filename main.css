@@ -27,17 +27,13 @@
 }
 
 .content {
-    /*padding: 0 0px;*/
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    /*background-color: #820d8d;*/
-    /*width: 75%;*/
 }
 
 .images {
     width: 50%;
-    /*margin-right: 10px;*/
 }
 
 img {
@@ -46,14 +42,9 @@ img {
 
 body > .flex-container {
     display: flex;
-    /*background-color: #820d8d;*/
     width: 100%;
     height: 100%;
-    /* margin: 20px; */
 }
-/* h1 {
-    margin: 0%;
-} */
 
 .flex-container > div {
     background-color: rgba(196, 188, 188, 0.856);
@@ -67,12 +58,20 @@ body > .flex-container {
     width: 30%;
     background-image: url("tentacles2.jpg");
     opacity: 0.6;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* position: fixed */
-    /* margin: 0; */
 }
+.flex-container > .sidebar2 {
+    width: 30%;
+    background-image: url("tentacles2.jpg");
+    opacity: 0.6;
+    /* background-size: cover; */
+    background-position: center right;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+}
+
 
 html, body {
     margin: 0%;
@@ -81,8 +80,6 @@ html, body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* position: fixed */
-
 }
 
 a {
